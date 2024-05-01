@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(168, 132, 86);
+    font-family: 'Open Sans', sans-serif;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+  
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 50px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.inputContainer{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    margin-top: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+    align-items: center;
+    margin-left: 32%;
+    margin-right:31%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+  
+#workBox {
+    font-size: 15px;
+    padding: 10px 5px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+#toDoDate {
+    padding: 10px 5px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+#add {
+    border-radius: 10px;
+    background-color: #34C759;
+    border: none;
+    height: 55px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.del {
+    background-color: #FF3737;
+    border-radius: 10px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
